@@ -92,19 +92,19 @@ int tranzitivnost(int a, int b) {
 
     if (tranzitivna && antitranzitivna)
     {
-        printf("TRANSITIVNA & ANTITRANSITIVNA\n");
+        //printf("TRANSITIVNA & ANTITRANSITIVNA\n");
         return 1;
     }else if (tranzitivna)
     {
-        printf("TRANSITIVNA\n");
+        //printf("TRANSITIVNA\n");
         return 2;
     }else if (antitranzitivna)
     {
-        printf("ANTITRANSITIVNA\n");
+        //printf("ANTITRANSITIVNA\n");
         return 3;
     }else if (netranzitivna)
     {
-        printf("NETRANZITIVNA\n");
+        //printf("NETRANZITIVNA\n");
         return 4;
     }
     

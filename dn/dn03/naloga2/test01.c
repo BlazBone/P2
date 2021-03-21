@@ -8,6 +8,8 @@ bool f(int x, int y) {
 }
 
 int main() {
-    printf("%d\n", tranzitivnost(1, 100));   // 2
+    printf("%d\n", tranzitivnost(1, 10));
+    printf("%d\n", tranzitivnost(201, 300));
+    printf("%d\n", tranzitivnost(42, 42));
     return 0;
 }

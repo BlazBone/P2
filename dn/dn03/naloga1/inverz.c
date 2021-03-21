@@ -21,22 +21,17 @@ long inverz(long x, long a, long b) {
 
     while (x != vrednostF)
     {
-        if(vrednostF < 0){
-            b = sredina;
-        }else if(vrednostF < x){
-            a = sredina;
-        }else if(vrednostF > x){
-            b = sredina;
-        }else if(a > b){
-            return -1; // kao napakca 
+        if (x > vrednostF)
+        {
+            a = sredina + 1;
+        }else if (x < vrednostF)
+        {
+            b = sredina - 1;
         }
         sredina = (a + b)/2;
         vrednostF = f(sredina);
     }
-    
     return sredina;
-    //ofc lohk rekurzija samo pride segmentation fault pr velikih cifrah but mybe sm sam nrobe nrdu
-
 }
 
 // Ta datoteka NE SME vsebovati funkcij main in f!

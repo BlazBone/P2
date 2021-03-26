@@ -1,0 +1,6 @@
+.vscode
+*.res
+*.in
+*.out
+*.diff
+Makefile

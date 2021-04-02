@@ -4,7 +4,7 @@
 // cene pa 3n + 1
 
 //deklaracija funkcije
-int collatz(int haha); // <- LEPO IN PRAV       (prototip funkcije)
+int collatz(int haha); // <- LEPO IN PRAV   (prototip funkcije)
 //int collatz(int); // <- GRDO IN PRAV 
 
 //definicija funkcije

@@ -29,7 +29,7 @@ long memo[401][401];
 long f(int n, int k, int *tabela, int kazalec)
 {
     
-    if (k > n) k = n;
+    if (k > n) f(n,n, tabela, kazalec);
 
     if (k == 0 && n == 0)
     {

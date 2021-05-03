@@ -6,7 +6,7 @@
 
 #include "naloga1.h"
 
-static char *koncni[1000];
+static char *koncni[10000];
 char *zdruzi(char **nizi, char *locilo)
 {
     char **a;
@@ -28,11 +28,7 @@ char *zdruzi(char **nizi, char *locilo)
     return konc;
 }
 
-char *NIZI[] = {"Radko", "Milena", "Boris", NULL};
 int main(void)
 {
-    char *niz = zdruzi(NIZI, ", ");
-    printf("<%s>\n", niz);
-
     return 0;
 }

@@ -22,7 +22,7 @@ void sudoku(int x, int y)
     numcalls++;
     
     
-        printf("%d   %d  %d\n", numcalls, x, y);
+    
     
     
 
@@ -39,18 +39,16 @@ void sudoku(int x, int y)
         printf("\n");
         return;
     }
-    printf("halo\n");
+   
     if (board[x][y] != 0)
     {
 
         if (y == 8)
         {
-            printf("smo tukihaha\n");
             sudoku(x + 1, 0);
         }
         else
         {
-            printf("smo tukihehe\n");
             sudoku(x, y + 1);
         }
         return;
@@ -86,7 +84,7 @@ void sudoku(int x, int y)
                 sudoku(x, y + 1);
             }
             board[x][y] = 0;
-            return;
+            
         }
     }
 }
@@ -94,7 +92,7 @@ void sudoku(int x, int y)
 int main(void)
 {
 
-    sudoku(2,0);
+    sudoku(0,0);
 
     return 0;
 }

@@ -1,0 +1,1 @@
+    char *line = malloc((ZGORNJA_MEJA_DOLZINE + 1) * sizeof(char));

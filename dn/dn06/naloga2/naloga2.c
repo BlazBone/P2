@@ -8,22 +8,34 @@
 
 int** ap2pp(int(*kazalec)[N], int izvornoStVrstic, int ciljnoStVrstic) {
     int numElems = (N*izvornoStVrstic)/ciljnoStVrstic + 1;
+    printf("%d\n%d", numElems, N);
+    int **ptrPtr;
 
-    int TABLE[ciljnoStVrstic][numElems];
-
-    int ptr = &TABLE[0][0];
-    
+    ptrPtr = malloc(sizeof(int*)*ciljnoStVrstic);
+    int aba = 0;
     for (int i = 0; i < ciljnoStVrstic; i++)
     {
+        printf("i=%d\n", i);
+        ptrPtr[i] = malloc(sizeof(int)*numElems);
         for (int j = 0; j < numElems; j++)
         {
+            printf("j=%d\n", j);
+            if (j != numElems - 1)
+            {
+                ptrPtr[i][j] = 1;
+                aba++;
+            }else {
+                printf("smo tuki");
+                ptrPtr[i][j] = 0;
+            }
             
+           
         }
         
     }
     
 
-    return NULL;
+    return ptrPtr;
 }
 
 int (*pp2ap(int** kazalec, int izvornoStVrstic, int* ciljnoStVrstic))[N] {
@@ -31,30 +43,28 @@ int (*pp2ap(int** kazalec, int izvornoStVrstic, int* ciljnoStVrstic))[N] {
     return NULL;
 }
 
-int* TABELA[] = {
-    (int[]) { 7,  0},
-    (int[]) { 3, 12, 16,  1,  0},
-    (int[]) { 2,  8, 11,  0},
-    (int[]) { 5, 13,  9,  0},
-    (int[]) {14,  4,  0},
-    (int[]) {15,  6, 10,  0},
+int TABELA[][N] = {
+    { 5,  7, 12,  9,  8},
+    { 1, 15,  3,  6, 14},
+    {11, 10,  2, 13,  4}
 };
 
 
 
 int main() {
-    int izvornoStVrstic = sizeof(TABELA) / sizeof(TABELA[0]);
-    int ciljnoStVrstic = 0;
-    int(*rezultat)[N] = pp2ap(TABELA, izvornoStVrstic, &ciljnoStVrstic);
+   int izvornoStVrstic = sizeof(TABELA) / sizeof(TABELA[0]);
+    int ciljnoStVrstic = 5;
+    int** rezultat = ap2pp(TABELA, izvornoStVrstic, ciljnoStVrstic);
 
     for (int i = 0;  i < ciljnoStVrstic;  i++) {
-        for (int j = 0;  j < N;  j++) {
-            printf("%3d", rezultat[i][j]);
+        int* p = rezultat[i];
+        while (*p != 0) {
+            printf("%3d", *p);
+            p++;
         }
         printf("\n");
+        free(rezultat[i]);
     }
     free(rezultat);
-
-    exit(0);
     return 0;
 }

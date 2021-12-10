@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1b49b7be-18a2-4270-ba65-50d7c7dbf585" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/delavno/202003.c" beforeDir="false" afterPath="$PROJECT_DIR$/delavno/202003.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaje/vaje01/drugoNajvecje/test01.res" beforeDir="false" afterPath="$PROJECT_DIR$/vaje/vaje01/drugoNajvecje/test01.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaje/vaje01/drugoNajvecje/test02.res" beforeDir="false" afterPath="$PROJECT_DIR$/vaje/vaje01/drugoNajvecje/test02.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaje/vaje01/drugoNajvecje/test03.res" beforeDir="false" afterPath="$PROJECT_DIR$/vaje/vaje01/drugoNajvecje/test03.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaje/vaje01/drugoNajvecje/test04.res" beforeDir="false" afterPath="$PROJECT_DIR$/vaje/vaje01/drugoNajvecje/test04.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaje/vaje01/drugoNajvecje/test05.res" beforeDir="false" afterPath="$PROJECT_DIR$/vaje/vaje01/drugoNajvecje/test05.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaje/vaje01/drugoNajvecje/test06.res" beforeDir="false" afterPath="$PROJECT_DIR$/vaje/vaje01/drugoNajvecje/test06.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaje/vaje01/drugoNajvecje/test07.res" beforeDir="false" afterPath="$PROJECT_DIR$/vaje/vaje01/drugoNajvecje/test07.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaje/vaje01/drugoNajvecje/test08.res" beforeDir="false" afterPath="$PROJECT_DIR$/vaje/vaje01/drugoNajvecje/test08.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaje/vaje01/drugoNajvecje/test09.res" beforeDir="false" afterPath="$PROJECT_DIR$/vaje/vaje01/drugoNajvecje/test09.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaje/vaje01/drugoNajvecje/test10.res" beforeDir="false" afterPath="$PROJECT_DIR$/vaje/vaje01/drugoNajvecje/test10.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaje/vaje01/vsaEnaka/test01.res" beforeDir="false" afterPath="$PROJECT_DIR$/vaje/vaje01/vsaEnaka/test01.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaje/vaje01/vsaEnaka/test03.res" beforeDir="false" afterPath="$PROJECT_DIR$/vaje/vaje01/vsaEnaka/test03.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaje/vaje01/vsaEnaka/test07.res" beforeDir="false" afterPath="$PROJECT_DIR$/vaje/vaje01/vsaEnaka/test07.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaje/vaje01/vsaEnaka/test09.res" beforeDir="false" afterPath="$PROJECT_DIR$/vaje/vaje01/vsaEnaka/test09.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaje/vaje01/vsaEnaka/test10.res" beforeDir="false" afterPath="$PROJECT_DIR$/vaje/vaje01/vsaEnaka/test10.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaje/vaje04/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/vaje/vaje04/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaje/vaje04/test01.in" beforeDir="false" afterPath="$PROJECT_DIR$/vaje/vaje04/test01.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaje/vaje07/vsote1.c" beforeDir="false" afterPath="$PROJECT_DIR$/vaje/vaje07/vsote1.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vaje/vaje13/furstovkalkulator.c" beforeDir="false" afterPath="$PROJECT_DIR$/vaje/vaje13/furstovkalkulator.c" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1uMVaUqJ7NSTXBK8i0smttpC9OL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b49b7be-18a2-4270-ba65-50d7c7dbf585" name="Default Changelist" comment="" />
+      <created>1624475512787</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624475512787</updated>
+      <workItem from="1624475517948" duration="75000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

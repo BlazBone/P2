@@ -70,7 +70,7 @@ Vozlisce* prepisi(int* t)
 Vozlisce* prepisiREK(int* t)
 {   
     Vozlisce *novo;
-    if (*t == 0)
+    if (*t == 0)                // 1,2,0  1->2->NULL
     {
         return NULL;
     }else 
@@ -86,8 +86,25 @@ void natisni (Vozlisce *a)
 {
     while (a != NULL)
     {
-        printf("%d\n", a->podatek);
+        printf("%d ", a->podatek);
         a = a->naslednje;
+        
+    }
+    printf("\n");
+}
+
+
+Vozlisce* obrni(Vozlisce* zacetek)
+{
+    if(zacetek->naslednje->naslednje == NULL)
+    {
+        zacetek->naslednje->naslednje = zacetek;
+        return zacetek->naslednje;
+    }else {
+        Vozlisce *A = obrni(zacetek->naslednje);
+        zacetek->naslednje->naslednje = zacetek;
+        zacetek->naslednje = NULL;
+        return A;
     }
 }
 
@@ -121,7 +138,7 @@ int main(int argc, char const *argv[])
 
     natisni(kzac);
     printf("here\n\n\n");
-    int t[] = {9,8,7,6,5,4,3,2,1,0};
+    int t[] = {9,8,0};
     
     Vozlisce *ahahah =  prepisiREK(t);
 
@@ -130,6 +147,9 @@ int main(int argc, char const *argv[])
     Vozlisce *ok =  prepisi(t);
 
     natisni(ok);
+
+    Vozlisce *aaaa = obrni(ahahah);
+    natisni(aaaa);
 
     return 0;
 }

@@ -27,7 +27,6 @@ long f(int n, int k)
 
     if (k == 0 && n == 0)
     {
-      
         return 1;
     }
     else if (k == 0)

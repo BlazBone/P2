@@ -97,12 +97,6 @@ int najboljDesniNajsibkejsiOperator(char* izraz, int dolzina)
     
 }
 
-
-
-
-
-
-
 int izracunaj(char *izraz)
 {
     int dolzina = strlen(izraz);

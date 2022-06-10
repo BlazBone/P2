@@ -28,9 +28,6 @@ void sudoku(int x, int y)
          printf("\n");
         return;
     }
-    
-    
-
 
     if (board[x][y] != 0)
     {

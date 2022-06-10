@@ -20,9 +20,6 @@ int sanse(int n, int k, int v, int stevila)
     
 }
 
-
-
-
 int main(int argc, char const *argv[])
 {
     int n,k,v, *stevila;

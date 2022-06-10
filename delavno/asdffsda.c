@@ -1,11 +1,7 @@
 #include <stdio.h>
 
-
-
 void blabla(FILE *in, FILE *out)
 {
-    printf("hej");
-   
     int prvi =fgetc(in);
     fputc(prvi,out);
     int drugi;
@@ -16,16 +12,12 @@ void blabla(FILE *in, FILE *out)
             if (prvi != drugi)
             {
                 fputc(drugi, out);
-            }
-            
+            }   
         }else{
             fputc(drugi, out);
         }
         prvi = drugi;
-    
     }
-    
-
 
 }
 

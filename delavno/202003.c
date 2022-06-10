@@ -24,13 +24,6 @@ Vozlisce* izloci(Vozlisce* zac, Vozlisce* v){
     }
     zac->naslednje = v->naslednje;
     v->naslednje = NULL; //ni treba ampak tako ga izkljucimo
-
-    
-
-
-
-
-
     return oddaj;
 }
 
@@ -51,8 +44,6 @@ Vozlisce* prepisi(int* t)
     int i = 1;
     while (t[i] != 0)
     {
-        
-        
         test = malloc(sizeof(Vozlisce));
         vmesno->podatek = t[i];
         vmesno->naslednje = test;
@@ -62,10 +53,8 @@ Vozlisce* prepisi(int* t)
     vmesno->naslednje = NULL;
     test->naslednje = NULL;
 
-
     return zacetek;
 }
-
 
 Vozlisce* prepisiREK(int* t)
 {   
@@ -93,7 +82,6 @@ void natisni (Vozlisce *a)
     printf("\n");
 }
 
-
 Vozlisce* obrni(Vozlisce* zacetek)
 {
     if(zacetek->naslednje->naslednje == NULL)
@@ -110,11 +98,7 @@ Vozlisce* obrni(Vozlisce* zacetek)
 
 int main(int argc, char const *argv[])
 {
-    
-    
-    
     Vozlisce *a;
-    
     Vozlisce *b;
     Vozlisce *c;
     Vozlisce *d;
@@ -137,7 +121,6 @@ int main(int argc, char const *argv[])
     Vozlisce *kzac  = izloci(a, d);
 
     natisni(kzac);
-    printf("here\n\n\n");
     int t[] = {9,8,0};
     
     Vozlisce *ahahah =  prepisiREK(t);

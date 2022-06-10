@@ -29,10 +29,6 @@ int main(int argc, char const *argv[])
         }
         i++;
     }
-
-    
         printf("%s", a);
-    
-    
     return 0;
 }
